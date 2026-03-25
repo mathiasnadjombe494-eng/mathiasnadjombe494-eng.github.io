@@ -186,13 +186,14 @@
       border: 4px solid var(--border);
     }
     .photo-circle img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 50%;
-      display: none;
-    }
-    .photo-circle img.loaded { display: block; }
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+    
+    .photo-circle img { display: block; }
     .photo-emoji { font-size: 3.5rem; }
     .photo-name {
       font-family: 'DM Serif Display', serif;
@@ -521,7 +522,7 @@
       <div class="photo-card">
         <div class="photo-circle">
           <!-- Remplace ce span par une balise <img src="mathias.jpg" /> -->
-           
+
           <img src="mathias.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" />
         </div>
         <div class="photo-name">NADJOMBE Kisso Mathias</div>
